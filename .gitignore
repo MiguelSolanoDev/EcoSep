@@ -1,0 +1,17 @@
+# Modelos de IA
+*.keras
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Ambiente virtual Python
+venv/
+.venv/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Arquivos do VS Code
+.vscode/

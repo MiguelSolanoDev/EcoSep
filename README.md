@@ -1,2 +1,2 @@
 # EcoSep
-Repositório para controle e gerenciamento do projeto EcoSep, desenvolvido pelo grupo Parada Dura
+Sistema inteligente de separação de resíduos utilizando Inteligência Artificial, visão computacional e automação, desenvolvido pelo grupo Parada Dura.

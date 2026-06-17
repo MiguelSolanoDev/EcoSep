@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EcoSep Dashboard</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- TOPBAR -->
+    <header class="topbar">
+
+        <div class="topbar-left">
+
+            <!-- LOGO -->
+            <div class="logo-area">
+
+                <img id="logo" src="img/ChatGPT Image 28 de mai. de 2026, 15_47_07.png" alt="Logo EcoSep">
+
+                <div class="logo-text">
+                    <h1>EcoSep</h1>
+                    <p>Separação Inteligente de Resíduos</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- STATUS -->
+        <div class="system-status">
+
+            <div class="status-circle"></div>
+
+            <div class="textosStatus">
+                <h2>Sistema Online</h2>
+                <p>Todo o sistema funcionando normalmente</p>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- DASHBOARD -->
+    <div class="dashboard">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="cards-container">
+
+                <div class="card">
+                    <h3>Resíduos Processados</h3>
+                    <div class="card-value">1.248</div>
+                    <div class="mini-graph"></div>
+                </div>
+
+                <div class="card">
+                    <h3>PET</h3>
+                    <div class="card-value">732</div>
+                    <div class="mini-graph"></div>
+                </div>
+
+                <div class="card">
+                    <h3>PEAD</h3>
+                    <div class="card-value">416</div>
+                    <div class="mini-graph"></div>
+                </div>
+
+                <div class="card">
+                    <h3>Precisão da IA</h3>
+                    <div class="card-value">92%</div>
+                    <div class="mini-graph"></div>
+                </div>
+
+            </div>
+
+        </aside>
+
+        <!-- CONTEUDO -->
+        <main class="main-content">
+
+            <!-- PARTE SUPERIOR -->
+            <section class="top-section">
+
+                <!-- GRAFICO -->
+                <div class="chart-card">
+
+                    <div class="section-title">
+                        <h3>Proporção de Materiais</h3>
+                    </div>
+
+                    <div class="fake-chart-circle"></div>
+
+                </div>
+
+                <!-- ATIVIDADE -->
+                <div class="activity-card">
+
+    <div class="section-title">
+        <h3>Atividade Recente</h3>
+    </div>
+
+    <table class="activity-table">
+
+        <thead>
+            <tr>
+                <th>Material</th>
+                <th>Confiança</th>
+                <th>Tempo Proc.</th>
+                <th>Horário</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>PET</td>
+                <td class="success">94%</td>
+                <td>0,81s</td>
+                <td>15:30:32</td>
+            </tr>
+
+            <tr>
+                <td>PEAD</td>
+                <td class="success">88%</td>
+                <td>0,75s</td>
+                <td>15:30:29</td>
+            </tr>
+
+            <tr>
+                <td>PET</td>
+                <td class="success">91%</td>
+                <td>0,80s</td>
+                <td>15:30:20</td>
+            </tr>
+
+            <tr>
+                <td>PET</td>
+                <td>65%</td>
+                <td>1,02s</td>
+                <td>15:30:12</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+            </section>
+
+            <!-- PARTE INFERIOR -->
+            <section class="bottom-section">
+
+                <!-- GRAFICO GRANDE -->
+                <div class="large-chart">
+
+                    <div class="section-title">
+                        <h3>Resíduos ao Longo do Tempo</h3>
+                    </div>
+
+                    <div class="fake-line-chart"></div>
+
+                </div>
+
+                <!-- STATUS -->
+                <div class="status-card">
+
+                    <div class="section-title">
+                        <h3>Status do Sistema</h3>
+                    </div>
+
+                    <div class="status-info">
+
+                        <div class="status-item">
+                            <span>Esteira</span>
+                            <strong>Operacional</strong>
+                        </div>
+
+                        <div class="status-item">
+                            <span>IA</span>
+                            <strong>Operacional</strong>
+                        </div>
+
+                        <div class="status-item">
+                            <span>Sensores</span>
+                            <strong>Operacional</strong>
+                        </div>
+
+                        <div class="status-item">
+                            <span>Servo Motor</span>
+                            <strong>Operacional</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
